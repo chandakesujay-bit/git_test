@@ -2,3 +2,110 @@ total 0
 drwxr-xr-x. 4 ec2-user ec2-user 88 Oct  3 14:34 DevOps
 -rw-r--r--. 1 ec2-user ec2-user  0 Oct  3 15:00 second_file.txt
 This is second file
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 14:16 ?        00:00:01 /usr/lib/systemd/systemd --switched-root --system --deserialize=32
+root           2       0  0 14:16 ?        00:00:00 [kthreadd]
+root           3       2  0 14:16 ?        00:00:00 [rcu_gp]
+root           4       2  0 14:16 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 14:16 ?        00:00:00 [slub_flushwq]
+root           6       2  0 14:16 ?        00:00:00 [netns]
+root           8       2  0 14:16 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 14:16 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 14:16 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 14:16 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 14:16 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 14:16 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 14:16 ?        00:00:00 [rcu_preempt]
+root          16       2  0 14:16 ?        00:00:00 [migration/0]
+root          18       2  0 14:16 ?        00:00:00 [cpuhp/0]
+root          19       2  0 14:16 ?        00:00:00 [cpuhp/1]
+root          20       2  0 14:16 ?        00:00:00 [migration/1]
+root          21       2  0 14:16 ?        00:00:00 [ksoftirqd/1]
+root          23       2  0 14:16 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          26       2  0 14:16 ?        00:00:00 [kdevtmpfs]
+root          27       2  0 14:16 ?        00:00:00 [inet_frag_wq]
+root          28       2  0 14:16 ?        00:00:00 [kauditd]
+root          29       2  0 14:16 ?        00:00:00 [khungtaskd]
+root          30       2  0 14:16 ?        00:00:00 [oom_reaper]
+root          32       2  0 14:16 ?        00:00:00 [writeback]
+root          33       2  0 14:16 ?        00:00:00 [kcompactd0]
+root          35       2  0 14:16 ?        00:00:00 [khugepaged]
+root          36       2  0 14:16 ?        00:00:00 [cryptd]
+root          37       2  0 14:16 ?        00:00:00 [kintegrityd]
+root          38       2  0 14:16 ?        00:00:00 [kblockd]
+root          39       2  0 14:16 ?        00:00:00 [blkcg_punt_bio]
+root          40       2  0 14:16 ?        00:00:00 [tpm_dev_wq]
+root          41       2  0 14:16 ?        00:00:00 [md]
+root          42       2  0 14:16 ?        00:00:00 [edac-poller]
+root          43       2  0 14:16 ?        00:00:00 [watchdogd]
+root          44       2  0 14:16 ?        00:00:00 [kworker/0:1H-kblockd]
+root          52       2  0 14:16 ?        00:00:00 [kswapd0]
+root          68       2  0 14:16 ?        00:00:00 [xfsalloc]
+root          71       2  0 14:16 ?        00:00:00 [xfs_mru_cache]
+root          73       2  0 14:16 ?        00:00:00 [kthrotld]
+root         122       2  0 14:16 ?        00:00:00 [nvme-wq]
+root         124       2  0 14:16 ?        00:00:00 [nvme-reset-wq]
+root         126       2  0 14:16 ?        00:00:00 [nvme-delete-wq]
+root         152       2  0 14:16 ?        00:00:00 [mld]
+root         153       2  0 14:16 ?        00:00:00 [ipv6_addrconf]
+root         172       2  0 14:16 ?        00:00:00 [kstrp]
+root         182       2  0 14:16 ?        00:00:00 [zswap-shrink]
+root         183       2  0 14:16 ?        00:00:00 [kworker/u5:0]
+root         341       2  0 14:16 ?        00:00:00 [kworker/1:1H-kblockd]
+root         786       2  0 14:16 ?        00:00:00 [xfs-buf/nvme0n1]
+root         787       2  0 14:16 ?        00:00:00 [xfs-conv/nvme0n]
+root         788       2  0 14:16 ?        00:00:00 [xfs-reclaim/nvm]
+root         789       2  0 14:16 ?        00:00:00 [xfs-blockgc/nvm]
+root         790       2  0 14:16 ?        00:00:00 [xfs-inodegc/nvm]
+root         791       2  0 14:16 ?        00:00:00 [xfs-log/nvme0n1]
+root         792       2  0 14:16 ?        00:00:00 [xfs-cil/nvme0n1]
+root         793       2  0 14:16 ?        00:00:00 [xfsaild/nvme0n1p1]
+root         840       1  0 14:16 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root        1256       1  0 14:16 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root        1283       2  0 14:16 ?        00:00:00 [ena]
+systemd+    1351       1  0 14:16 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+root        1355       1  0 14:16 ?        00:00:00 /sbin/auditd
+root        1358       2  0 14:16 ?        00:00:00 [rpciod]
+root        1359       2  0 14:16 ?        00:00:00 [xprtiod]
+root        1414       1  0 14:16 ?        00:00:00 /usr/bin/systemd-inhibit --what=handle-suspend-key:handle-hibernate-key --who=noah --why=acpid instead --mode=block /usr/sbin/acpid -f
+root        1417       1  0 14:16 ?        00:00:00 /usr/sbin/irqbalance --foreground
+libstor+    1418       1  0 14:16 ?        00:00:00 /usr/bin/lsmd -d
+root        1421       1  0 14:16 ?        00:00:00 /usr/lib/systemd/systemd-homed
+root        1423       1  0 14:16 ?        00:00:00 /usr/lib/systemd/systemd-logind
+dbus        1444       1  0 14:16 ?        00:00:00 /usr/bin/dbus-broker-launch --scope system --audit
+systemd+    1445       1  0 14:16 ?        00:00:00 /usr/lib/systemd/systemd-networkd
+dbus        1447    1444  0 14:16 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id ec2f8395126a352558335b7eed457e1a --max-bytes 536870912 --max-fds 4096 --max-matches 16384 --audit
+root        1451    1414  0 14:16 ?        00:00:00 /usr/sbin/acpid -f
+root        1460       1  0 14:16 ?        00:00:00 /usr/sbin/gssproxy -D
+root        1593       1  0 14:16 ?        00:00:00 /usr/bin/amazon-ssm-agent
+root        1597       1  0 14:16 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1608       1  0 14:16 ?        00:00:00 /usr/sbin/atd -f
+root        1618       1  0 14:16 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root        1619       1  0 14:16 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+chrony      1627       1  0 14:16 ?        00:00:00 /usr/sbin/chronyd -F 2
+root        1735       1  0 14:19 ?        00:00:00 /usr/lib/systemd/systemd-userdbd
+ec2-user    1792       1  0 14:19 ?        00:00:00 /usr/lib/systemd/systemd --user
+ec2-user    1797    1792  0 14:19 ?        00:00:00 (sd-pam)
+root        2488    1597  0 14:39 ?        00:00:00 sshd: ec2-user [priv]
+ec2-user    2491    2488  0 14:39 ?        00:00:00 sshd: ec2-user@pts/1
+ec2-user    2492    2491  0 14:39 pts/1    00:00:00 -bash
+root        2817    1597  0 14:49 ?        00:00:00 sshd: ec2-user [priv]
+ec2-user    2833    2817  0 14:49 ?        00:00:00 sshd: ec2-user@pts/0
+ec2-user    2879    2833  0 14:49 pts/0    00:00:00 -bash
+root        3442       2  0 15:04 ?        00:00:00 [kworker/1:3-cgroup_destroy]
+root        3451       2  0 15:06 ?        00:00:00 [kworker/0:0-cgroup_destroy]
+root        3508       2  0 15:06 ?        00:00:00 [kworker/u4:0-writeback]
+root        3626       2  0 15:10 ?        00:00:00 [kworker/u4:2-xfs-cil/nvme0n1p1]
+root        3647       2  0 15:10 ?        00:00:00 [kworker/1:2-cgroup_destroy]
+root        3656    1597  0 15:11 ?        00:00:00 sshd: ec2-user [priv]
+ec2-user    3663    3656  0 15:11 ?        00:00:00 sshd: ec2-user@pts/2
+ec2-user    3717    3663  0 15:11 pts/2    00:00:00 -bash
+root        3951       2  0 15:16 ?        00:00:00 [kworker/1:0-events]
+root        3952       2  0 15:17 ?        00:00:00 [kworker/0:2-mm_percpu_wq]
+root        4074       2  0 15:20 ?        00:00:00 [kworker/1:1-cgroup_destroy]
+root        4080    1735  0 15:20 ?        00:00:00 systemd-userwork: waiting...
+root        4081    1735  0 15:21 ?        00:00:00 systemd-userwork: waiting...
+root        4082    1735  0 15:21 ?        00:00:00 systemd-userwork: waiting...
+root        4083       2  0 15:22 ?        00:00:00 [kworker/0:1-events]
+root        4138       2  0 15:22 ?        00:00:00 [kworker/u4:1-events_unbound]
+ec2-user    4149    3717  0 15:23 pts/2    00:00:00 ps -ef
